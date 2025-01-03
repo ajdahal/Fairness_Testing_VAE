@@ -3,7 +3,3 @@ adult_train_3_way_covering_array_bin_means_2024-12-31_11-56.csv,adult__logistic_
 adult_train_3_way_covering_array_bin_means_2024-12-31_11-56.csv,adult__nn__.h5,1143,175,15.311,9
 adult_train_3_way_covering_array_bin_means_2024-12-31_11-56.csv,adult__random_forest__.pkl,1143,127,11.111,1
 adult_train_3_way_covering_array_bin_means_2024-12-31_11-56.csv,adult__svm__.pkl,1143,69,6.037,21
-adult_train_3_way_covering_array_bin_means_2024-12-31_11-56.csv,adult__logistic_regression__.pkl,1143,214,18.723,6
-adult_train_3_way_covering_array_bin_means_2024-12-31_11-56.csv,adult__nn__.h5,1143,175,15.311,9
-adult_train_3_way_covering_array_bin_means_2024-12-31_11-56.csv,adult__random_forest__.pkl,1143,127,11.111,1
-adult_train_3_way_covering_array_bin_means_2024-12-31_11-56.csv,adult__svm__.pkl,1143,69,6.037,21

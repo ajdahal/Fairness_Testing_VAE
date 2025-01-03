@@ -3,4 +3,3 @@ compas_train_4_way_covering_array_bin_means_2024-12-31_11-59.csv,compas__logisti
 compas_train_4_way_covering_array_bin_means_2024-12-31_11-59.csv,compas__nn__.h5,6704,1362,20.316,7
 compas_train_4_way_covering_array_bin_means_2024-12-31_11-59.csv,compas__random_forest__.pkl,6704,3300,49.224,5
 compas_train_4_way_covering_array_bin_means_2024-12-31_11-59.csv,compas__svm__.pkl,6704,1615,24.09,19
-compas_train_4_way_covering_array_bin_means_2024-12-31_11-59.csv,compas__logistic_regression__.pkl,6704,1324,19.749,9

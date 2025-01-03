@@ -3,11 +3,3 @@ credit_train_3_way_covering_array_bin_means_2024-12-31_12-04.csv,credit__logisti
 credit_train_3_way_covering_array_bin_means_2024-12-31_12-04.csv,credit__nn__.h5,1243,151,12.148,2
 credit_train_3_way_covering_array_bin_means_2024-12-31_12-04.csv,credit__random_forest__.pkl,1243,187,15.044,31
 credit_train_3_way_covering_array_bin_means_2024-12-31_12-04.csv,credit__svm__.pkl,1243,45,3.62,21
-credit_train_3_way_covering_array_bin_means_2024-12-31_12-04.csv,credit__logistic_regression__.pkl,1243,111,8.93,22
-credit_train_3_way_covering_array_bin_means_2024-12-31_12-04.csv,credit__nn__.h5,1243,151,12.148,2
-credit_train_3_way_covering_array_bin_means_2024-12-31_12-04.csv,credit__random_forest__.pkl,1243,187,15.044,31
-credit_train_3_way_covering_array_bin_means_2024-12-31_12-04.csv,credit__svm__.pkl,1243,45,3.62,21
-credit_train_3_way_covering_array_bin_means_2024-12-31_12-04.csv,credit__logistic_regression__.pkl,1243,111,8.93,22
-credit_train_3_way_covering_array_bin_means_2024-12-31_12-04.csv,credit__nn__.h5,1243,151,12.148,2
-credit_train_3_way_covering_array_bin_means_2024-12-31_12-04.csv,credit__random_forest__.pkl,1243,187,15.044,31
-credit_train_3_way_covering_array_bin_means_2024-12-31_12-04.csv,credit__svm__.pkl,1243,45,3.62,21
