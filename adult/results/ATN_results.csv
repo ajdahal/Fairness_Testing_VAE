@@ -1,0 +1,16 @@
+Train_File_Name,Number_of_Rows_Train_File,Test_File_Name,Number_of_Rows_Test_File,ATN_Score,Mode
+adult_train.csv,24129,9_multivariate_normal_sampled_instances_from_adult_train_24129_2024-12-31_11_4_way_covering_array_bin_means_2024-12-31_11-56.csv,9912,0.825,not-equal
+adult_train.csv,24129,adult_train_3_way_covering_array_bin_random_points_2024-12-31_11-56.csv,1143,0.835,not-equal
+adult_train.csv,24129,9_multivariate_normal_sampled_instances_from_adult_train_24129_2024-12-31_11_2_way_covering_array_bin_means_2024-12-31_11-56.csv,133,0.78,not-equal
+adult_train.csv,24129,9_multivariate_normal_sampled_instances_from_adult_train_24129_2024-12-31_11_2_way_covering_array_bin_random_points_2024-12-31_11-56.csv,133,0.79,not-equal
+adult_train.csv,24129,adult_train_4_way_covering_array_bin_means_2024-12-31_11-56.csv,9912,0.825,not-equal
+adult_train.csv,24129,adult_train_2_way_covering_array_bin_random_points_2024-12-31_11-56.csv,133,0.8,not-equal
+adult_train.csv,24129,9_multivariate_normal_sampled_instances_from_adult_train_24129_2024-12-31_11_2_way_covering_array_bin_edges_2024-12-31_11-56.csv,86,0.8,not-equal
+adult_train.csv,24129,9_multivariate_normal_sampled_instances_from_adult_train_24129_2024-12-31_11_3_way_covering_array_bin_means_2024-12-31_11-56.csv,1143,0.825,not-equal
+adult_train.csv,24129,adult_train_2_way_covering_array_bin_means_2024-12-31_11-56.csv,133,0.78,not-equal
+adult_train.csv,24129,9_multivariate_normal_sampled_instances_from_adult_train_24129_2024-12-31_11_3_way_covering_array_bin_random_points_2024-12-31_11-56.csv,1143,0.82,not-equal
+adult_train.csv,24129,9_multivariate_normal_sampled_instances_from_adult_train_24129_2024-12-31_11_3_way_covering_array_bin_edges_2024-12-31_11-56.csv,722,0.825,not-equal
+adult_train.csv,24129,adult_train_3_way_covering_array_bin_means_2024-12-31_11-56.csv,1143,0.825,not-equal
+adult_train.csv,24129,adult_train_4_way_covering_array_bin_random_points_2024-12-31_11-56.csv,9912,0.835,not-equal
+adult_train.csv,24129,9_multivariate_normal_sampled_instances_from_adult_train_24129_2024-12-31_11_4_way_covering_array_bin_random_points_2024-12-31_11-56.csv,9912,0.825,not-equal
+adult_train.csv,24129,9_multivariate_normal_sampled_instances_from_adult_train_24129_2024-12-31_11_4_way_covering_array_bin_edges_2024-12-31_11-56.csv,5672,0.825,not-equal

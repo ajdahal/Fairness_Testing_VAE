@@ -1,0 +1,16 @@
+Train_File_Name,Number_of_Rows_Train_File,Test_File_Name,Number_of_Rows_Test_File,ATN_Score,Mode
+credit_train.csv,800,14_multivariate_normal_sampled_instances_from_credit_train_800_2024-12-31_12_2_way_covering_array_bin_edges_2024-12-31_12-04.csv,98,0.72,not-equal
+credit_train.csv,800,14_multivariate_normal_sampled_instances_from_credit_train_800_2024-12-31_12_2_way_covering_array_bin_means_2024-12-31_12-04.csv,112,0.82,not-equal
+credit_train.csv,800,14_multivariate_normal_sampled_instances_from_credit_train_800_2024-12-31_12_2_way_covering_array_bin_random_points_2024-12-31_12-04.csv,112,0.795,not-equal
+credit_train.csv,800,14_multivariate_normal_sampled_instances_from_credit_train_800_2024-12-31_12_3_way_covering_array_bin_edges_2024-12-31_12-04.csv,832,0.745,not-equal
+credit_train.csv,800,14_multivariate_normal_sampled_instances_from_credit_train_800_2024-12-31_12_3_way_covering_array_bin_means_2024-12-31_12-04.csv,966,0.815,not-equal
+credit_train.csv,800,14_multivariate_normal_sampled_instances_from_credit_train_800_2024-12-31_12_3_way_covering_array_bin_random_points_2024-12-31_12-04.csv,966,0.785,not-equal
+credit_train.csv,800,14_multivariate_normal_sampled_instances_from_credit_train_800_2024-12-31_12_4_way_covering_array_bin_edges_2024-12-31_12-04.csv,6405,0.75,not-equal
+credit_train.csv,800,14_multivariate_normal_sampled_instances_from_credit_train_800_2024-12-31_12_4_way_covering_array_bin_means_2024-12-31_12-04.csv,8029,0.81,not-equal
+credit_train.csv,800,14_multivariate_normal_sampled_instances_from_credit_train_800_2024-12-31_12_4_way_covering_array_bin_random_points_2024-12-31_12-04.csv,8029,0.78,not-equal
+credit_train.csv,800,credit_train_2_way_covering_array_bin_means_2024-12-31_12-04.csv,127,0.815,not-equal
+credit_train.csv,800,credit_train_2_way_covering_array_bin_random_points_2024-12-31_12-04.csv,127,0.785,not-equal
+credit_train.csv,800,credit_train_3_way_covering_array_bin_means_2024-12-31_12-04.csv,1243,0.82,not-equal
+credit_train.csv,800,credit_train_3_way_covering_array_bin_random_points_2024-12-31_12-04.csv,1243,0.795,not-equal
+credit_train.csv,800,credit_train_4_way_covering_array_bin_means_2024-12-31_12-04.csv,11426,0.815,not-equal
+credit_train.csv,800,credit_train_4_way_covering_array_bin_random_points_2024-12-31_12-04.csv,11426,0.795,not-equal

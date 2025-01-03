@@ -10,9 +10,6 @@ from rdt import HyperTransformer
 import csv
 
 
-current_timestamp = datetime.now().strftime("%Y-%m-%d_%H")
-
-
 def initialize_seed_from_env():
     """
     Initialize the seed for all libraries using the seed stored in the GLOBAL_SEED environment variable.
@@ -153,8 +150,7 @@ def process_and_save_atn_file_results(results_dir, test_data_file, adv_data_file
     os.makedirs(results_dir, exist_ok=True)
 
     # Create the output file name with a timestamp
-    current_timestamp = datetime.now().strftime("%Y_%m_%d_%H_%M_%S")
-    output_file = os.path.join(results_dir, f"ATN_results_two_way_{os.path.splitext(os.path.basename(test_data_file))[0]}_{current_timestamp}.csv")
+    output_file = os.path.join(results_dir, f"ATN_results_two_way_{os.path.splitext(os.path.basename(test_data_file))[0]}.csv")
 
     # Prepare data for CSV
     row_data = {
@@ -208,7 +204,7 @@ def calculate_and_save_atn_scores(train_file_path, t_way_samples_dir, results_di
 
     # Ensure the results directory exists
     os.makedirs(results_dir, exist_ok=True)
-    results_file_path = os.path.join(results_dir, f"ATN_results_{current_timestamp}.csv")
+    results_file_path = os.path.join(results_dir, f"ATN_results.csv")
 
     # Initialize results list
     results = []

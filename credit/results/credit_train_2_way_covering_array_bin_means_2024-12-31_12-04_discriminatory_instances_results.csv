@@ -1,0 +1,5 @@
+Filename,Model_Name,Total_Instances,Discriminatory_Instances,Percentage_Discriminatory,First_Discrepancy
+credit_train_2_way_covering_array_bin_means_2024-12-31_12-04.csv,credit__logistic_regression__.pkl,127,7,5.512,6
+credit_train_2_way_covering_array_bin_means_2024-12-31_12-04.csv,credit__nn__.h5,127,14,11.024,3
+credit_train_2_way_covering_array_bin_means_2024-12-31_12-04.csv,credit__random_forest__.pkl,127,14,11.024,4
+credit_train_2_way_covering_array_bin_means_2024-12-31_12-04.csv,credit__svm__.pkl,127,1,0.787,51

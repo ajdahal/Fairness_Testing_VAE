@@ -1,0 +1,4 @@
+original_index,Attribute1,Attribute2,Attribute3,Attribute4,Attribute5,Attribute6,Attribute7,Attribute8,Attribute9,Attribute10,Attribute11,Attribute12,Attribute13,Attribute14,Attribute15,Attribute16,Attribute17,Attribute18,Attribute19,Attribute20,original_prediction,alternative_prediction
+28,A11,13,A30,A40,1478,A61,A75,2,Male,A102,3,A124,46,A141,A153,3,A171,2,A191,A202,1,0
+28,A11,13,A30,A40,1478,A61,A75,2,Male,A102,3,A124,22,A141,A153,3,A171,2,A191,A202,1,0
+79,A11,45,A30,A48,2376,A62,A72,4,Female,A102,4,A121,22,A141,A153,2,A171,2,A191,A202,0,1

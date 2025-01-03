@@ -1,0 +1,2 @@
+First_Filename,Number_of_Rows_First_File,Second_Filename,Number_of_Rows_Second_Filename,ATN_Score,Mode
+t_way_samples/compas_train_2_way_covering_array_bin_means_2024-12-31_11-59.csv,95,/home/arjun/remote_github/Fairness_Testing/Fairness_Testing_IWCT_Final/compas/dataset/compas_all_data.csv,6172,0.845,not-equal

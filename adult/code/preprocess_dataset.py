@@ -1,4 +1,5 @@
 import os
+import sys
 import random
 import torch
 import pickle
@@ -7,6 +8,11 @@ import pandas as pd
 from rdt import HyperTransformer
 from rdt.transformers import GaussianNormalizer, OneHotEncoder
 from sklearn.model_selection import train_test_split
+
+
+# Add the 'code' directory to the system path
+sys.path.append(os.path.join(os.path.dirname(__file__), 'code'))
+base_dir = os.path.dirname(__file__)
 
 
 def initialize_seed_from_env():
@@ -59,18 +65,18 @@ def preprocess_data(models_output_dir, train_file_path, test_file_path):
     # Define custom configuration
     ht.set_config({
         "sdtypes": {
-            "age": "numerical",
+            "age": "numerical",      #
             "workclass": "categorical",
             "education": "categorical",
-            "education-num": "numerical",
+            "education-num": "numerical",     #
             "marital-status": "categorical",
             "occupation": "categorical",
             "relationship": "categorical",
             "race": "categorical",
             "sex": "categorical",
-            "capital-gain": "numerical",
-            "capital-loss": "numerical",
-            "hours-per-week": "numerical",
+            "capital-gain": "numerical",     #
+            "capital-loss": "numerical",     #
+            "hours-per-week": "numerical",   # 
             "native-country": "categorical"
         },
         "transformers": {
@@ -117,6 +123,7 @@ if __name__ == "__main__":
     
     train_file_path = "../dataset/adult_train.csv"
     test_file_path = "../dataset/adult_test.csv"
-    models_output_dir = os.path.join(base_dir, "models")
+    # models_output_dir = os.path.join(base_dir, "models")
+    models_output_dir = "../models/"
     X_train_transformed, X_test_transformed  = preprocess_data(models_output_dir, train_file_path, test_file_path)
     print("Standalone script execution complete.")

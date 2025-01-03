@@ -35,9 +35,6 @@ test_file_path = os.path.join(dataset_dir, "adult_test.csv")
 processor_export_file_path = os.path.join(models_dir, "adult_preprocessor.pkl")
 
 
-current_timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")               # Format: YYYY-MM-DD_HH-MM
-
-
 def set_global_seed(seed=42):
     """
     Set the global seed for reproducibility across Python, NumPy, and TensorFlow.
@@ -53,8 +50,14 @@ def set_global_seed(seed=42):
     tf.random.set_seed(seed)
     # GPU determinism (for TensorFlow)
     os.environ['TF_DETERMINISTIC_OPS'] = '1'
+    os.environ['TF_CUDNN_DETERMINISTIC'] = '1'  # If using TF >= 2.8
     os.environ['PYTHONHASHSEED'] = str(seed)
+    os.environ["OMP_NUM_THREADS"] = "1"
+    os.environ["MKL_NUM_THREADS"] = "1"
+    os.environ["CUDA_VISIBLE_DEVICES"] = "-1"  # Disable GPU
+    
     print(f"Global seed set to {seed}")
+
 
 # Set the seed for reproducibility
 set_global_seed(42)
@@ -85,10 +88,9 @@ def get_preprocessor(numerical_features, categorical_features):
 
 # Train Logistic Regression
 def train_logistic_regression(preprocessor, X_train, y_train, model_path):
-    print(f"\n model_path: {model_path}")
     clf = Pipeline(steps=[
         ('preprocessor', preprocessor),
-        ('classifier', LogisticRegression())
+        ('classifier', LogisticRegression(random_state=42))
     ])
     clf.fit(X_train, y_train)
     with open(model_path, 'wb') as file:
@@ -101,7 +103,7 @@ def train_logistic_regression(preprocessor, X_train, y_train, model_path):
 def train_random_forest(preprocessor, X_train, y_train, model_path):
     clf = Pipeline(steps=[
         ('preprocessor', preprocessor),
-        ('classifier', RandomForestClassifier())
+        ('classifier', RandomForestClassifier(random_state=42, n_jobs=1))
     ])
     clf.fit(X_train, y_train)
     with open(model_path, 'wb') as file:
@@ -110,12 +112,11 @@ def train_random_forest(preprocessor, X_train, y_train, model_path):
 
 
 
-
 # Train Support Vector Machine
 def train_svm(preprocessor, X_train, y_train, model_path):
     clf = Pipeline(steps=[
         ('preprocessor', preprocessor),
-        ('classifier', SVC(gamma='auto', probability=True))                   # can be used to get the probabilities of the data instances 
+        ('classifier', SVC(gamma='auto', probability=True,random_state=42))                   # can be used to get the probabilities of the data instances 
     ])
     clf.fit(X_train, y_train)
     with open(model_path, 'wb') as file:
@@ -151,7 +152,7 @@ def train_nn(X_train, y_train, x_test, y_test, model_path, numerical_cols, categ
     model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 
     # Train the model
-    model.fit(X_train_transformed, y_train, validation_split=0.2, epochs=100, verbose=0, class_weight={0: 1, 1: 2})
+    model.fit(X_train_transformed, y_train, validation_split=0.2, epochs=100, verbose=0, class_weight={0: 1, 1: 2},shuffle=False)
 
     # Save the model in HDF5 format
     model.save(model_path)
@@ -296,7 +297,7 @@ def main(train_file_path, test_file_path, model_dir):
     model_name = ["_logistic_regression_", "_random_forest_", "_svm_"]
     # Assume `model_name` is a list, e.g., ["logistic_regression", "random_forest", "svm"]
     model_paths = [
-        os.path.join(models_dir, "adult_" + model + "_" + str(current_timestamp) + ".pkl")
+        os.path.join(models_dir, "adult_" + model + "_" + ".pkl")
         for model in model_name  # Iterate over each model name in the list
     ]
     
@@ -323,7 +324,7 @@ def main(train_file_path, test_file_path, model_dir):
     write_notnn_predictions(svm_model_path)
     
     # Train and save NN
-    model_path_nn = os.path.join(models_dir, "adult_" + "_nn__" + str(current_timestamp) + ".h5")
+    model_path_nn = os.path.join(models_dir, "adult_" + "_nn__" + ".h5")
     nn_model_accuracy, nn_model_path = train_nn(x_train, y_train, x_test, y_test, model_path_nn, numerical_cols, categorical_cols, preprocessor)
     print(f"NN model saved to: {nn_model_path}, Test Accuracy: {100 * nn_model_accuracy:.2f}")
     

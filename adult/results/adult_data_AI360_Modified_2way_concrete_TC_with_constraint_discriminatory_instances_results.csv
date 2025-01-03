@@ -1,0 +1,5 @@
+Filename,Model_Name,Total_Instances,Discriminatory_Instances,Percentage_Discriminatory,First_Discrepancy
+adult_data_AI360_Modified_2way_concrete_TC_with_constraint.csv,adult__logistic_regression__.pkl,676,98,14.497,11
+adult_data_AI360_Modified_2way_concrete_TC_with_constraint.csv,adult__nn__.h5,676,105,15.533,11
+adult_data_AI360_Modified_2way_concrete_TC_with_constraint.csv,adult__random_forest__.pkl,676,32,4.734,41
+adult_data_AI360_Modified_2way_concrete_TC_with_constraint.csv,adult__svm__.pkl,676,29,4.29,10

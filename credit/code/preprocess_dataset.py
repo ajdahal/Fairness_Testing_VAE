@@ -142,7 +142,7 @@ if __name__ == "__main__":
     
     train_file_path = "../dataset/credit_train.csv"
     test_file_path = "../dataset/credit_train.csv"
-    models_output_dir = os.path.join(base_dir, "models")
+    models_output_dir = os.path.join("../models")
     X_train_transformed, X_test_transformed  = preprocess_data(models_output_dir, train_file_path, test_file_path)
     print(f"X_train_transformed's shape: {X_train_transformed.shape} | X_train_transformed: {X_train_transformed[0:5]}")
     print("Standalone script execution complete.")

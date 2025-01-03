@@ -1,0 +1,41 @@
+original_index,sex,age,age_cat,race,juv_fel_count,juv_misd_count,juv_other_count,priors_count,c_charge_degree,original_prediction,alternative_prediction
+2,Female,18,Less than 25,Caucasian,1,1,1,2,F,1,0
+2,Female,18,Less than 25,Asian,1,1,1,2,F,1,0
+4,Female,18,25 - 45,Asian,3,3,3,6,M,1,0
+7,Female,18,25 - 45,Caucasian,1,2,6,0,F,1,0
+7,Female,18,25 - 45,Native American,1,2,6,0,F,1,0
+7,Male,18,25 - 45,Caucasian,1,2,6,0,F,1,0
+8,Male,18,Less than 25,Caucasian,2,3,7,1,F,0,1
+8,Male,18,Less than 25,Asian,2,3,7,1,F,0,1
+11,Male,20,Less than 25,Asian,6,1,2,6,F,0,1
+11,Male,20,Less than 25,Caucasian,6,1,2,6,F,0,1
+14,Male,20,Greater than 45,Other,4,5,5,0,F,0,1
+15,Male,20,25 - 45,Caucasian,6,5,6,1,M,0,1
+17,Female,21,Less than 25,Caucasian,0,0,0,3,M,1,0
+17,Female,21,Less than 25,African-American,0,0,0,3,M,1,0
+18,Male,21,Greater than 45,Hispanic,2,5,1,6,F,0,1
+18,Female,21,Greater than 45,Caucasian,2,5,1,6,F,0,1
+18,Male,21,Greater than 45,Caucasian,2,5,1,6,F,0,1
+21,Male,21,Less than 25,Native American,6,3,4,0,M,0,1
+21,Male,21,Less than 25,Caucasian,6,3,4,0,M,0,1
+23,Male,21,Less than 25,Other,3,3,6,2,M,0,1
+23,Male,21,Less than 25,Caucasian,3,3,6,2,M,0,1
+26,Male,31,Less than 25,Asian,6,2,1,8,F,0,1
+26,Female,31,Less than 25,Caucasian,6,2,1,8,F,0,1
+26,Male,31,Less than 25,Caucasian,6,2,1,8,F,0,1
+29,Female,31,Less than 25,Caucasian,4,3,4,1,F,1,0
+29,Female,31,Less than 25,Other,4,3,4,1,F,1,0
+30,Male,31,Less than 25,Native American,6,5,5,2,M,0,1
+30,Male,31,Less than 25,Caucasian,6,5,5,2,M,0,1
+31,Female,31,Greater than 45,Caucasian,3,1,6,3,F,1,0
+31,Female,31,Greater than 45,Native American,3,1,6,3,F,1,0
+33,Female,35,Less than 25,Caucasian,0,0,0,8,F,1,0
+33,Female,35,Less than 25,Other,0,0,0,8,F,1,0
+38,Female,35,25 - 45,Caucasian,6,3,5,3,F,1,0
+38,Female,35,25 - 45,Asian,6,3,5,3,F,1,0
+44,Male,52,Less than 25,Other,6,5,3,2,F,0,1
+44,Male,52,Less than 25,Caucasian,6,5,3,2,F,0,1
+45,Male,52,Less than 25,Native American,1,1,4,3,F,0,1
+45,Male,52,Less than 25,Caucasian,1,1,4,3,F,0,1
+61,Male,72,Less than 25,Caucasian,6,1,4,8,F,0,1
+61,Male,72,Less than 25,Hispanic,6,1,4,8,F,0,1

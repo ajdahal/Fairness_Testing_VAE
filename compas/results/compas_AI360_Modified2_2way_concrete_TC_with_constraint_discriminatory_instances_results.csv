@@ -1,0 +1,5 @@
+Filename,Model_Name,Total_Instances,Discriminatory_Instances,Percentage_Discriminatory,First_Discrepancy
+compas_AI360_Modified2_2way_concrete_TC_with_constraint.csv,compas__logistic_regression__.pkl,64,10,15.625,9
+compas_AI360_Modified2_2way_concrete_TC_with_constraint.csv,compas__nn__.h5,64,7,10.938,21
+compas_AI360_Modified2_2way_concrete_TC_with_constraint.csv,compas__random_forest__.pkl,64,19,29.688,7
+compas_AI360_Modified2_2way_concrete_TC_with_constraint.csv,compas__svm__.pkl,64,20,31.25,2

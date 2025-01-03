@@ -61,6 +61,9 @@ def set_global_seed(seed):
     # Ensure deterministic behavior in PyTorch (if required)
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
+    os.environ["OMP_NUM_THREADS"] = "1"
+    os.environ["MKL_NUM_THREADS"] = "1"
+    os.environ["CUDA_VISIBLE_DEVICES"] = "-1"  # Disable GPU
     # Set the seed for rdt HyperTransformer
     ht = HyperTransformer()
     ht.random_state = seed
@@ -80,7 +83,9 @@ def main():
         print("Dataset files already exist. Loading the files...")
         train_data = pd.read_csv(train_file_path)
         test_data = pd.read_csv(test_file_path)
+         
     
+    """
     # Now you can use train_data and test_data
     print(f"Train data shape: {train_data.shape}")
     print(f"Test data shape: {test_data.shape}")
@@ -141,14 +146,14 @@ def main():
     matching_files = glob.glob(multivariate_file_pattern)
     multivariate_filename = matching_files[0] if matching_files else None
     t_way_multivariate_combinations(synthesizer, ht, embedding_dimension, multivariate_filename, train_file_path, filename_labels, label_column_name)
-    
+    """
     
     # Step 6: find ATN for t_way_samples with respect to training data
-    calculate_and_save_atn_scores(train_file_path, t_way_samples_dir, results_dir, mode='not-equal')  # mode: 'equal' or 'not-equal'    
-    
+    calculate_and_save_atn_scores(train_file_path, t_way_samples_dir, results_dir, mode='not-equal')  # mode: 'equal' or 'not-equal' 
+   
     # Step 7: Find the ratio of discriminatory instances
     # Train the machine learning models
-    train_models_compas.main(train_file_path, test_file_path, models_dir)
+    train_models_compas.main()
     
     t_way_patel = "../Patel_Data/tWay_Concrete_TC/compas_AI360_Modified2_2way_concrete_TC_with_constraint.csv"
     t_way_ours = glob.glob("t_way_samples/compas_train_2_way_covering_array_bin_means*.csv")
@@ -167,7 +172,7 @@ def main():
     for t_way_file in t_way_ours:
         process_and_save_atn_file_results(results_dir, test_data_file = t_way_file, adv_data_file=dataset_ours, mode='not-equal')
     process_and_save_atn_file_results(results_dir, test_data_file = t_way_patel, adv_data_file=dataset_patel, mode='not-equal')
-
+    
 
 
 if __name__ == "__main__":

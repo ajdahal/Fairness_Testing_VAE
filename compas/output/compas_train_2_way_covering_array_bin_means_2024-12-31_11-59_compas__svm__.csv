@@ -1,0 +1,58 @@
+original_index,sex,age,age_cat,race,juv_fel_count,juv_misd_count,juv_other_count,priors_count,c_charge_degree,original_prediction,alternative_prediction
+5,Female,23,Less than 25,Caucasian,0,0,0,1,M,1,0
+5,Female,23,Less than 25,Other,0,0,0,1,M,1,0
+6,Female,22,Less than 25,Caucasian,0,1,0,1,F,1,0
+6,Female,22,Less than 25,African-American,0,1,0,1,F,1,0
+8,Female,52,Greater than 45,Caucasian,1,0,0,10,F,1,0
+8,Female,52,Greater than 45,Native American,1,0,0,10,F,1,0
+8,Male,52,Greater than 45,Caucasian,1,0,0,10,F,1,0
+11,Female,40,25 - 45,Caucasian,0,0,0,9,F,1,0
+11,Female,40,25 - 45,Native American,0,0,0,9,F,1,0
+14,Female,23,Less than 25,Caucasian,2,1,0,2,F,1,0
+14,Female,23,Less than 25,Asian,2,1,0,2,F,1,0
+22,Male,23,Less than 25,Asian,0,0,0,1,F,0,1
+22,Male,23,Less than 25,Caucasian,0,0,0,1,F,0,1
+29,Female,24,Less than 25,Caucasian,0,1,0,2,F,1,0
+29,Female,24,Less than 25,Other,0,1,0,2,F,1,0
+30,Female,19,Less than 25,Caucasian,0,0,0,0,F,1,0
+30,Female,19,Less than 25,Asian,0,0,0,0,F,1,0
+32,Female,53,Greater than 45,Caucasian,0,0,0,10,F,1,0
+32,Female,53,Greater than 45,Asian,0,0,0,10,F,1,0
+32,Male,53,Greater than 45,Caucasian,0,0,0,10,F,1,0
+37,Female,22,Less than 25,Caucasian,1,0,1,1,F,1,0
+37,Female,22,Less than 25,Other,1,0,1,1,F,1,0
+38,Female,19,Less than 25,Caucasian,0,0,0,2,F,1,0
+38,Female,19,Less than 25,Native American,0,0,0,2,F,1,0
+45,Male,22,Less than 25,Other,0,0,0,2,F,0,1
+45,Male,22,Less than 25,Caucasian,0,0,0,2,F,0,1
+51,Male,36,25 - 45,African-American,0,0,0,6,F,0,1
+53,Male,25,Less than 25,Other,0,0,0,0,F,0,1
+53,Male,25,Less than 25,Caucasian,0,0,0,0,F,0,1
+54,Male,20,Less than 25,African-American,2,0,0,0,F,0,1
+54,Male,20,Less than 25,Caucasian,2,0,0,0,F,0,1
+57,Female,48,Greater than 45,Caucasian,1,0,0,9,F,1,0
+57,Female,48,Greater than 45,African-American,1,0,0,9,F,1,0
+57,Male,48,Greater than 45,Caucasian,1,0,0,9,F,1,0
+60,Female,23,Less than 25,Caucasian,2,0,0,2,F,1,0
+60,Female,23,Less than 25,Hispanic,2,0,0,2,F,1,0
+66,Female,24,Less than 25,Caucasian,2,1,0,5,F,1,0
+66,Female,24,Less than 25,Native American,2,1,0,5,F,1,0
+68,Female,39,25 - 45,Caucasian,1,0,0,6,F,1,0
+68,Female,39,25 - 45,Asian,1,0,0,6,F,1,0
+68,Male,39,25 - 45,Caucasian,1,0,0,6,F,1,0
+72,Female,62,Greater than 45,Caucasian,0,0,0,11,F,1,0
+72,Female,62,Greater than 45,Asian,0,0,0,11,F,1,0
+72,Male,62,Greater than 45,Caucasian,0,0,0,11,F,1,0
+75,Female,39,25 - 45,Caucasian,0,0,0,7,F,1,0
+75,Female,39,25 - 45,Asian,0,0,0,7,F,1,0
+75,Male,39,25 - 45,Caucasian,0,0,0,7,F,1,0
+79,Female,24,Less than 25,Caucasian,0,1,0,3,M,1,0
+79,Female,24,Less than 25,Hispanic,0,1,0,3,M,1,0
+81,Female,36,25 - 45,African-American,0,0,0,9,F,1,0
+84,Female,37,25 - 45,Caucasian,1,1,0,6,F,1,0
+84,Female,37,25 - 45,Native American,1,1,0,6,F,1,0
+84,Male,37,25 - 45,Caucasian,1,1,0,6,F,1,0
+85,Female,51,Greater than 45,Caucasian,1,0,0,10,F,1,0
+85,Female,51,Greater than 45,Native American,1,0,0,10,F,1,0
+88,Male,20,Less than 25,Native American,0,0,2,0,F,0,1
+88,Male,20,Less than 25,Caucasian,0,0,2,0,F,0,1

@@ -1,0 +1,2 @@
+First_Filename,Number_of_Rows_First_File,Second_Filename,Number_of_Rows_Second_Filename,ATN_Score,Mode
+t_way_samples/credit_train_2_way_covering_array_bin_means_2024-12-31_12-04.csv,127,/home/arjun/remote_github/Fairness_Testing/Fairness_Testing_IWCT_Final/credit/dataset/credit_all_data.csv,1000,0.815,not-equal

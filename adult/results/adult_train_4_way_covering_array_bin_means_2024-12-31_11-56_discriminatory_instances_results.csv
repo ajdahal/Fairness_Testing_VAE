@@ -1,0 +1,5 @@
+Filename,Model_Name,Total_Instances,Discriminatory_Instances,Percentage_Discriminatory,First_Discrepancy
+adult_train_4_way_covering_array_bin_means_2024-12-31_11-56.csv,adult__logistic_regression__.pkl,9912,1799,18.15,4
+adult_train_4_way_covering_array_bin_means_2024-12-31_11-56.csv,adult__nn__.h5,9912,1492,15.052,23
+adult_train_4_way_covering_array_bin_means_2024-12-31_11-56.csv,adult__random_forest__.pkl,9912,1241,12.52,9
+adult_train_4_way_covering_array_bin_means_2024-12-31_11-56.csv,adult__svm__.pkl,9912,664,6.699,9

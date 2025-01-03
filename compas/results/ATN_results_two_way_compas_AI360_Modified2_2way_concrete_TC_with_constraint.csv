@@ -1,0 +1,2 @@
+First_Filename,Number_of_Rows_First_File,Second_Filename,Number_of_Rows_Second_Filename,ATN_Score,Mode
+../Patel_Data/tWay_Concrete_TC/compas_AI360_Modified2_2way_concrete_TC_with_constraint.csv,64,../Patel_Data/Dataset/compas_AI360_Modified2.csv,7214,0.66,not-equal

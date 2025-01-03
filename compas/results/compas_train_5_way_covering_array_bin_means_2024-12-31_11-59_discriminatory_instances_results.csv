@@ -1,0 +1,5 @@
+Filename,Model_Name,Total_Instances,Discriminatory_Instances,Percentage_Discriminatory,First_Discrepancy
+compas_train_5_way_covering_array_bin_means_2024-12-31_11-59.csv,compas__logistic_regression__.pkl,45241,8885,19.639,1
+compas_train_5_way_covering_array_bin_means_2024-12-31_11-59.csv,compas__nn__.h5,45241,9162,20.252,2
+compas_train_5_way_covering_array_bin_means_2024-12-31_11-59.csv,compas__random_forest__.pkl,45241,22132,48.92,1
+compas_train_5_way_covering_array_bin_means_2024-12-31_11-59.csv,compas__svm__.pkl,45241,10820,23.916,1

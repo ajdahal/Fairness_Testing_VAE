@@ -6,6 +6,8 @@ import joblib
 import pandas as pd
 from collections import defaultdict
 import tensorflow as tf
+import numpy as np
+
 
 base_dir = os.path.dirname("./")
 output_dir = os.path.join(base_dir, "output")
@@ -13,10 +15,32 @@ models_dir = os.path.join(base_dir, "models")
 results_dir = os.path.join(base_dir, "results")
 
 
-# Fix random seed for reproducibility
-RANDOM_SEED = 42
-random.seed(RANDOM_SEED)
-tf.random.set_seed(RANDOM_SEED)
+def set_global_seed(seed=42):
+    """
+    Set the global seed for reproducibility across Python, NumPy, and TensorFlow.
+    Args:
+        seed (int): The seed value to set.
+    """
+    
+    # Python's random module
+    random.seed(seed)
+    # NumPy
+    np.random.seed(seed)
+    # TensorFlow
+    tf.random.set_seed(seed)
+    # GPU determinism (for TensorFlow)
+    os.environ['TF_DETERMINISTIC_OPS'] = '1'
+    os.environ['TF_CUDNN_DETERMINISTIC'] = '1'  # If using TF >= 2.8
+    os.environ['PYTHONHASHSEED'] = str(seed)
+    os.environ["OMP_NUM_THREADS"] = "1"
+    os.environ["MKL_NUM_THREADS"] = "1"
+    os.environ["CUDA_VISIBLE_DEVICES"] = "-1"  # Disable GPU
+    print(f"Global seed set to {seed}")
+
+
+# Set the seed for reproducibility
+set_global_seed(42)
+
 
 
 def load_preprocessor(export_file_name="adult_preprocessor.pkl"):
@@ -61,33 +85,34 @@ def append_results_to_csv(results, results_dir, input_csv_filename, output_filen
 
 def get_model_paths(models_dir):
     """
-    Get the most recent model paths sorted by date.
+    Retrieve all model file paths in the specified directory that match the allowed models.
+    Args:
+        models_dir (str): Path to the directory containing model files.
+    Returns:
+        list: A sorted list of full paths to the matched model files.
     """
     # Allowed model names
     allowed_models = {"logistic_regression", "nn", "random_forest", "svm"}
     
-    # Initialize a defaultdict to group files by date
-    models_by_date = defaultdict(list)
-    
-    # Regular expression to capture valid filenames and the date section
-    pattern = re.compile(r"^adult__({})__(\d{{4}}-\d{{2}}-\d{{2}}_\d{{2}}-\d{{2}})\.(pkl|h5)$".format('|'.join(allowed_models)))
+    # Regular expression to capture valid filenames
+    pattern = re.compile(r"^adult__({})__\.(pkl|h5)$".format('|'.join(allowed_models)))
 
+    # List to collect matched model paths
+    model_paths = []
+    
     # List all files in the models directory
     for filename in os.listdir(models_dir):
         match = pattern.match(filename)
         if match:
-            model_name = match.group(1)  # Extract the model name
-            date_section = match.group(2)  # Extract the date section
+            # model_name = match.group(1)  # Extract the model name if needed
+            # file_extension = match.group(2)  # Extract the file extension if needed
             full_path = os.path.join(models_dir, filename)
-            models_by_date[date_section].append(full_path)
+            model_paths.append(full_path)
 
-    # Get the most recent date section and corresponding files
-    if models_by_date:
-        latest_date_section = max(models_by_date.keys())  # Find the latest date section
-        model_paths = sorted(models_by_date[latest_date_section])  # Get model paths for that date
-    else:
-        model_paths = []  # Handle case where no matching files are found
-    print(f"\n model_paths: {model_paths}")
+    # Optional: Sort the model paths alphabetically
+    model_paths.sort()
+    
+    print(f"\nmodel_paths: {model_paths}")
     return model_paths
 
 
@@ -138,7 +163,8 @@ def find_discriminatory_instances(input_file, model_path, output_file, preproces
     and neural networks.
     Returns: Results dictionary containing details of discriminatory analysis.
     """
-    df = pd.read_csv(input_file)
+    
+    df = pd.read_csv(input_file).drop(columns=['income'], errors='ignore')
     df.columns = ["age", "workclass", "education", "education-num", "marital-status", "occupation", "relationship", "race", "sex", "capital-gain", "capital-loss", "hours-per-week", "native-country"]
 
     if is_neural_network:
@@ -148,7 +174,7 @@ def find_discriminatory_instances(input_file, model_path, output_file, preproces
         # Load ML model
         with open(model_path, 'rb') as file:
             model = pickle.load(file)
-
+        
     combined_data = generate_combinations_from_csv(df)
     
     # Convert combined_data to a DataFrame
@@ -273,5 +299,7 @@ def process_models(input_csv, models_dir, output_dir, results_dir):
 
 if __name__ == "__main__":
     # input_csv = "../t_way_samples/adult_train_2_way_covering_array_bin_means_2024-12-25_21-13.csv"
-    input_csv = "../../Patel_Data/tWay_Concrete_TC/adult_data_AI360_Modified2_2way_concrete_TC_with_constraint.csv"
+    # input_csv = "../../Patel_Data/tWay_Concrete_TC/adult_data_AI360_Modified2_2way_concrete_TC_with_constraint.csv"
+    # input_csv = "../dataset/adult_train.csv"
+    input_csv = "../dataset/adult_test.csv"
     process_models(input_csv, models_dir, output_dir, results_dir)

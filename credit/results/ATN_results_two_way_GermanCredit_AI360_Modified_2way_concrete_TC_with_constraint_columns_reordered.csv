@@ -1,0 +1,2 @@
+First_Filename,Number_of_Rows_First_File,Second_Filename,Number_of_Rows_Second_Filename,ATN_Score,Mode
+../Patel_Data/GermanCredit_AI360_Modified_2way_concrete_TC_with_constraint_columns_reordered.csv,81,../Patel_Data/GermanCredit_AI360_Modified_columns_reordered.csv,1000,0.63,not-equal

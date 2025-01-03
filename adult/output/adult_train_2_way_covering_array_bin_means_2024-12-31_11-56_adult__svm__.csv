@@ -1,0 +1,14 @@
+original_index,age,workclass,education,education-num,marital-status,occupation,relationship,race,sex,capital-gain,capital-loss,hours-per-week,native-country,original_prediction,alternative_prediction
+35,35,Private,HS-grad,9,Married-civ-spouse,Exec-managerial,Husband,White,Female,5531,0,57,United-States,1,0
+35,35,Private,HS-grad,9,Married-civ-spouse,Exec-managerial,Husband,Amer-Indian-Eskimo,Female,5531,0,57,United-States,1,0
+39,34,Private,Masters,14,Married-civ-spouse,Adm-clerical,Own-child,White,Male,0,2221,40,United-States,0,1
+42,66,Private,HS-grad,9,Married-civ-spouse,Exec-managerial,Husband,White,Female,2501,0,40,United-States,1,0
+42,66,Private,HS-grad,9,Married-civ-spouse,Exec-managerial,Husband,Other,Female,2501,0,40,United-States,1,0
+50,35,Private,Assoc-voc,11,Married-civ-spouse,Tech-support,Wife,Asian-Pac-Islander,Male,0,0,40,United-States,0,1
+50,35,Private,Assoc-voc,11,Married-civ-spouse,Tech-support,Wife,White,Female,0,0,40,United-States,0,1
+50,35,Private,Assoc-voc,11,Married-civ-spouse,Tech-support,Wife,White,Male,0,0,40,United-States,0,1
+56,23,Private,Bachelors,13,Married-civ-spouse,Protective-serv,Husband,Black,Female,3649,0,40,United-States,1,0
+93,36,State-gov,Bachelors,13,Married-civ-spouse,Craft-repair,Husband,White,Female,0,0,57,United-States,1,0
+93,36,State-gov,Bachelors,13,Married-civ-spouse,Craft-repair,Husband,Black,Female,0,0,57,United-States,1,0
+94,37,Private,Prof-school,15,Married-civ-spouse,Adm-clerical,Husband,White,Female,0,0,40,United-States,1,0
+94,37,Private,Prof-school,15,Married-civ-spouse,Adm-clerical,Husband,Other,Female,0,0,40,United-States,1,0
