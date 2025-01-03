@@ -1,0 +1,556 @@
+original_index,sex,age,age_cat,race,juv_fel_count,juv_misd_count,juv_other_count,priors_count,c_charge_degree,original_prediction,alternative_prediction
+5,Female,35,25 - 45,Hispanic,0,0,0,7,F,1,0
+6,Female,52,Greater than 45,Caucasian,1,0,0,9,M,1,0
+6,Female,52,Greater than 45,Hispanic,1,0,0,9,M,1,0
+6,Male,52,Greater than 45,Caucasian,1,0,0,9,M,1,0
+9,Female,20,Less than 25,Caucasian,0,0,1,0,M,1,0
+9,Female,20,Less than 25,African-American,0,0,1,0,M,1,0
+14,Female,24,Less than 25,Caucasian,0,0,0,2,F,1,0
+14,Female,24,Less than 25,Asian,0,0,0,2,F,1,0
+14,Male,24,Less than 25,Asian,0,0,0,2,F,1,0
+27,Male,61,Greater than 45,African-American,0,0,0,10,F,0,1
+31,Female,36,25 - 45,Caucasian,0,0,0,5,F,1,0
+31,Female,36,25 - 45,Asian,0,0,0,5,F,1,0
+34,Female,22,Less than 25,Native American,0,1,1,3,M,1,0
+35,Female,26,25 - 45,Caucasian,0,0,0,2,F,1,0
+35,Female,26,25 - 45,Other,0,0,0,2,F,1,0
+38,Female,40,25 - 45,Caucasian,0,0,0,8,M,1,0
+38,Female,40,25 - 45,Other,0,0,0,8,M,1,0
+41,Female,34,25 - 45,Asian,1,0,0,9,F,1,0
+44,Female,22,Less than 25,Caucasian,0,0,1,0,F,1,0
+44,Female,22,Less than 25,Hispanic,0,0,1,0,F,1,0
+45,Male,23,Less than 25,Caucasian,0,0,0,0,F,0,1
+47,Female,28,25 - 45,Caucasian,1,1,1,4,M,1,0
+47,Female,28,25 - 45,Hispanic,1,1,1,4,M,1,0
+47,Male,28,25 - 45,Hispanic,1,1,1,4,M,1,0
+70,Male,34,25 - 45,African-American,0,0,0,4,F,0,1
+73,Male,24,Less than 25,Caucasian,0,0,0,0,F,0,1
+74,Female,22,Less than 25,Caucasian,0,0,1,0,F,1,0
+74,Female,22,Less than 25,Other,0,0,1,0,F,1,0
+75,Female,30,25 - 45,Other,0,0,0,6,F,1,0
+76,Female,22,Less than 25,Caucasian,0,0,0,0,F,1,0
+76,Female,22,Less than 25,Hispanic,0,0,0,0,F,1,0
+82,Female,25,25 - 45,Caucasian,0,0,0,5,M,1,0
+82,Female,25,25 - 45,Hispanic,0,0,0,5,M,1,0
+87,Male,26,25 - 45,Caucasian,0,0,0,2,F,0,1
+89,Female,29,25 - 45,Caucasian,0,0,0,7,M,1,0
+90,Female,31,25 - 45,Caucasian,1,0,0,7,M,1,0
+90,Female,31,25 - 45,African-American,1,0,0,7,M,1,0
+92,Female,21,Less than 25,Caucasian,0,0,0,0,F,1,0
+92,Female,21,Less than 25,Asian,0,0,0,0,F,1,0
+94,Male,47,Greater than 45,Caucasian,0,0,0,7,F,0,1
+99,Male,24,Less than 25,Caucasian,0,0,0,0,F,0,1
+103,Female,39,25 - 45,Hispanic,0,0,0,10,F,1,0
+104,Female,24,Less than 25,Caucasian,0,0,0,1,F,1,0
+104,Female,24,Less than 25,African-American,0,0,0,1,F,1,0
+111,Female,23,Less than 25,Asian,2,0,0,3,F,1,0
+112,Female,43,25 - 45,Caucasian,0,0,0,8,F,1,0
+112,Female,43,25 - 45,Native American,0,0,0,8,F,1,0
+115,Female,27,25 - 45,Caucasian,0,0,0,2,F,1,0
+115,Female,27,25 - 45,Native American,0,0,0,2,F,1,0
+115,Male,27,25 - 45,Caucasian,0,0,0,2,F,1,0
+116,Female,24,Less than 25,Asian,0,0,0,3,F,1,0
+120,Female,26,25 - 45,Caucasian,0,0,0,2,F,1,0
+120,Female,26,25 - 45,Native American,0,0,0,2,F,1,0
+120,Male,26,25 - 45,Hispanic,0,0,0,2,F,1,0
+122,Female,37,25 - 45,Hispanic,0,0,0,8,F,1,0
+128,Female,27,25 - 45,Caucasian,0,0,0,2,F,1,0
+128,Female,27,25 - 45,Hispanic,0,0,0,2,F,1,0
+128,Male,27,25 - 45,Caucasian,0,0,0,2,F,1,0
+132,Female,35,25 - 45,Native American,0,0,0,7,F,1,0
+146,Female,22,Less than 25,Caucasian,0,0,0,1,F,1,0
+146,Female,22,Less than 25,Other,0,0,0,1,F,1,0
+152,Male,35,25 - 45,Caucasian,0,0,0,5,F,0,1
+153,Female,24,Less than 25,Caucasian,0,0,1,0,F,1,0
+153,Female,24,Less than 25,Asian,0,0,1,0,F,1,0
+154,Female,24,Less than 25,Caucasian,0,0,0,1,F,1,0
+154,Female,24,Less than 25,Asian,0,0,0,1,F,1,0
+160,Female,45,Greater than 45,Caucasian,0,0,0,7,F,1,0
+160,Female,45,Greater than 45,African-American,0,0,0,7,F,1,0
+171,Female,21,Less than 25,Caucasian,0,0,0,0,F,1,0
+171,Female,21,Less than 25,Hispanic,0,0,0,0,F,1,0
+171,Male,21,Less than 25,Asian,0,0,0,0,F,1,0
+176,Female,23,Less than 25,Caucasian,0,0,0,1,M,1,0
+176,Female,23,Less than 25,Other,0,0,0,1,M,1,0
+176,Male,23,Less than 25,Caucasian,0,0,0,1,M,1,0
+181,Male,20,Less than 25,Caucasian,0,0,0,0,F,0,1
+185,Female,23,Less than 25,Caucasian,0,0,0,3,M,1,0
+185,Female,23,Less than 25,Asian,0,0,0,3,M,1,0
+185,Male,23,Less than 25,Hispanic,0,0,0,3,M,1,0
+191,Female,22,Less than 25,Hispanic,0,1,0,2,F,1,0
+197,Female,23,Less than 25,Caucasian,0,0,0,1,F,1,0
+197,Female,23,Less than 25,Hispanic,0,0,0,1,F,1,0
+197,Male,23,Less than 25,Hispanic,0,0,0,1,F,1,0
+199,Female,25,25 - 45,Caucasian,0,0,0,2,F,1,0
+199,Female,25,25 - 45,Native American,0,0,0,2,F,1,0
+226,Female,23,Less than 25,Hispanic,0,0,0,4,M,1,0
+230,Female,29,25 - 45,Caucasian,0,0,0,3,F,1,0
+230,Female,29,25 - 45,Native American,0,0,0,3,F,1,0
+230,Male,29,25 - 45,Other,0,0,0,3,F,1,0
+231,Female,24,Less than 25,Caucasian,0,0,0,0,F,1,0
+231,Female,24,Less than 25,Native American,0,0,0,0,F,1,0
+237,Male,23,Less than 25,Caucasian,0,0,0,0,F,0,1
+237,Male,23,Less than 25,Native American,0,0,0,0,F,0,1
+239,Female,22,Less than 25,Caucasian,0,0,0,0,F,1,0
+239,Female,22,Less than 25,Other,0,0,0,0,F,1,0
+240,Female,33,25 - 45,Caucasian,0,0,0,6,M,1,0
+240,Female,33,25 - 45,Native American,0,0,0,6,M,1,0
+242,Female,55,Greater than 45,Asian,0,0,0,13,F,1,0
+245,Male,28,25 - 45,Caucasian,0,0,1,3,F,0,1
+246,Female,23,Less than 25,Caucasian,0,0,0,0,F,1,0
+246,Female,23,Less than 25,Native American,0,0,0,0,F,1,0
+247,Female,21,Less than 25,Caucasian,0,0,1,0,F,1,0
+247,Female,21,Less than 25,Native American,0,0,1,0,F,1,0
+252,Female,26,25 - 45,Caucasian,0,0,0,4,F,1,0
+252,Female,26,25 - 45,Asian,0,0,0,4,F,1,0
+253,Male,20,Less than 25,Caucasian,0,0,0,1,M,0,1
+259,Female,51,Greater than 45,Caucasian,0,0,0,9,F,1,0
+259,Female,51,Greater than 45,African-American,0,0,0,9,F,1,0
+266,Female,24,Less than 25,Caucasian,0,0,0,0,F,1,0
+266,Female,24,Less than 25,Native American,0,0,0,0,F,1,0
+267,Female,21,Less than 25,Caucasian,0,0,0,0,F,1,0
+267,Female,21,Less than 25,African-American,0,0,0,0,F,1,0
+267,Male,21,Less than 25,Hispanic,0,0,0,0,F,1,0
+268,Female,32,25 - 45,Caucasian,0,0,0,3,F,1,0
+268,Female,32,25 - 45,African-American,0,0,0,3,F,1,0
+268,Male,32,25 - 45,Caucasian,0,0,0,3,F,1,0
+274,Female,24,Less than 25,Caucasian,0,0,0,0,F,1,0
+274,Female,24,Less than 25,Hispanic,0,0,0,0,F,1,0
+274,Male,24,Less than 25,Other,0,0,0,0,F,1,0
+275,Female,20,Less than 25,Asian,1,0,0,1,F,1,0
+276,Male,27,25 - 45,African-American,0,0,0,2,F,0,1
+277,Female,20,Less than 25,Caucasian,0,0,0,0,F,1,0
+277,Female,20,Less than 25,Hispanic,0,0,0,0,F,1,0
+278,Female,40,25 - 45,Hispanic,0,0,0,10,F,1,0
+282,Female,23,Less than 25,Caucasian,0,0,0,1,M,1,0
+282,Female,23,Less than 25,African-American,0,0,0,1,M,1,0
+282,Male,23,Less than 25,Caucasian,0,0,0,1,M,1,0
+286,Female,21,Less than 25,Caucasian,0,0,0,1,F,1,0
+286,Female,21,Less than 25,Asian,0,0,0,1,F,1,0
+291,Male,40,25 - 45,Caucasian,0,0,0,7,F,0,1
+297,Female,21,Less than 25,Caucasian,0,0,1,0,F,1,0
+298,Female,23,Less than 25,Other,1,0,0,2,F,1,0
+308,Male,28,25 - 45,Caucasian,0,0,0,6,M,0,1
+308,Male,28,25 - 45,Native American,0,0,0,6,M,0,1
+311,Male,24,Less than 25,Caucasian,0,0,0,0,F,0,1
+313,Female,22,Less than 25,Caucasian,0,0,0,0,F,1,0
+313,Female,22,Less than 25,Other,0,0,0,0,F,1,0
+314,Female,30,25 - 45,Other,0,0,0,6,F,1,0
+323,Male,19,Less than 25,Caucasian,0,0,0,0,F,0,1
+325,Male,24,Less than 25,Caucasian,0,0,0,0,F,0,1
+326,Female,42,25 - 45,Caucasian,0,0,0,7,F,1,0
+326,Female,42,25 - 45,Asian,0,0,0,7,F,1,0
+331,Female,28,25 - 45,Caucasian,0,0,0,4,M,1,0
+331,Female,28,25 - 45,Asian,0,0,0,4,M,1,0
+331,Male,28,25 - 45,Caucasian,0,0,0,4,M,1,0
+332,Female,26,25 - 45,Caucasian,0,0,0,4,F,1,0
+332,Female,26,25 - 45,Asian,0,0,0,4,F,1,0
+333,Male,37,25 - 45,Caucasian,0,0,0,6,F,0,1
+341,Female,61,Greater than 45,Caucasian,0,0,0,11,F,1,0
+341,Female,61,Greater than 45,Native American,0,0,0,11,F,1,0
+345,Female,29,25 - 45,Hispanic,0,0,0,8,M,1,0
+347,Female,20,Less than 25,Hispanic,1,0,0,1,F,1,0
+355,Female,21,Less than 25,Caucasian,0,0,0,1,F,1,0
+355,Female,21,Less than 25,Hispanic,0,0,0,1,F,1,0
+356,Female,21,Less than 25,Hispanic,0,0,0,3,F,1,0
+364,Female,29,25 - 45,Caucasian,0,0,0,4,F,1,0
+364,Female,29,25 - 45,Hispanic,0,0,0,4,F,1,0
+370,Female,25,25 - 45,Caucasian,0,0,0,2,F,1,0
+370,Female,25,25 - 45,Other,0,0,0,2,F,1,0
+372,Male,23,Less than 25,Caucasian,0,0,0,0,F,0,1
+378,Female,26,25 - 45,Caucasian,0,0,0,4,F,1,0
+380,Female,22,Less than 25,Caucasian,0,0,0,1,F,1,0
+380,Female,22,Less than 25,Asian,0,0,0,1,F,1,0
+382,Female,24,Less than 25,Asian,1,0,0,4,F,1,0
+387,Female,21,Less than 25,Caucasian,0,0,0,0,F,1,0
+387,Female,21,Less than 25,Hispanic,0,0,0,0,F,1,0
+391,Female,22,Less than 25,Hispanic,0,0,0,2,F,1,0
+393,Female,27,25 - 45,Caucasian,0,0,0,2,F,1,0
+393,Female,27,25 - 45,Other,0,0,0,2,F,1,0
+393,Male,27,25 - 45,Caucasian,0,0,0,2,F,1,0
+395,Female,20,Less than 25,Native American,0,0,0,1,F,1,0
+399,Female,25,25 - 45,Caucasian,0,0,0,2,F,1,0
+399,Female,25,25 - 45,Native American,0,0,0,2,F,1,0
+400,Female,21,Less than 25,Caucasian,0,0,0,0,F,1,0
+400,Female,21,Less than 25,Asian,0,0,0,0,F,1,0
+406,Female,26,25 - 45,Caucasian,0,0,0,4,F,1,0
+410,Female,21,Less than 25,Hispanic,0,0,1,2,F,1,0
+416,Female,23,Less than 25,Caucasian,0,0,0,1,F,1,0
+416,Female,23,Less than 25,Asian,0,0,0,1,F,1,0
+417,Male,31,25 - 45,Caucasian,0,0,2,2,F,0,1
+417,Male,31,25 - 45,Other,0,0,2,2,F,0,1
+424,Female,23,Less than 25,Caucasian,0,0,0,3,M,1,0
+424,Female,23,Less than 25,Native American,0,0,0,3,M,1,0
+425,Female,36,25 - 45,Caucasian,0,0,0,5,F,1,0
+425,Female,36,25 - 45,African-American,0,0,0,5,F,1,0
+425,Male,36,25 - 45,Asian,0,0,0,5,F,1,0
+426,Female,24,Less than 25,Caucasian,0,0,0,2,F,1,0
+426,Female,24,Less than 25,Other,0,0,0,2,F,1,0
+432,Female,31,25 - 45,Native American,0,2,0,8,M,1,0
+434,Male,42,25 - 45,Caucasian,0,0,0,8,F,0,1
+439,Female,32,25 - 45,Caucasian,0,0,0,4,F,1,0
+439,Female,32,25 - 45,Asian,0,0,0,4,F,1,0
+441,Female,32,25 - 45,Asian,0,3,0,7,F,1,0
+446,Female,33,25 - 45,Caucasian,0,0,0,6,F,1,0
+456,Male,28,25 - 45,African-American,0,0,0,6,M,0,1
+456,Male,28,25 - 45,Caucasian,0,0,0,6,M,0,1
+457,Female,24,Less than 25,Caucasian,0,0,0,2,M,1,0
+457,Female,24,Less than 25,Other,0,0,0,2,M,1,0
+462,Female,21,Less than 25,Caucasian,0,0,0,0,F,1,0
+462,Female,21,Less than 25,Native American,0,0,0,0,F,1,0
+462,Male,21,Less than 25,Asian,0,0,0,0,F,1,0
+464,Female,33,25 - 45,Caucasian,0,0,0,5,F,1,0
+464,Female,33,25 - 45,African-American,0,0,0,5,F,1,0
+465,Female,36,25 - 45,Caucasian,0,0,0,7,F,1,0
+465,Female,36,25 - 45,Hispanic,0,0,0,7,F,1,0
+467,Female,21,Less than 25,Caucasian,0,0,0,1,F,1,0
+467,Female,21,Less than 25,Asian,0,0,0,1,F,1,0
+468,Female,41,25 - 45,Caucasian,2,0,0,6,F,1,0
+468,Female,41,25 - 45,African-American,2,0,0,6,F,1,0
+469,Female,32,25 - 45,Caucasian,0,0,0,6,M,1,0
+469,Female,32,25 - 45,Hispanic,0,0,0,6,M,1,0
+469,Male,32,25 - 45,Native American,0,0,0,6,M,1,0
+474,Female,23,Less than 25,Other,0,0,0,2,F,1,0
+475,Female,20,Less than 25,Native American,0,0,0,1,F,1,0
+476,Female,31,25 - 45,Asian,2,0,0,6,F,1,0
+488,Female,22,Less than 25,Caucasian,0,0,0,1,F,1,0
+488,Female,22,Less than 25,Native American,0,0,0,1,F,1,0
+490,Male,24,Less than 25,African-American,0,0,0,1,F,0,1
+490,Male,24,Less than 25,Caucasian,0,0,0,1,F,0,1
+492,Male,45,Greater than 45,Caucasian,0,0,0,9,M,0,1
+498,Female,22,Less than 25,Caucasian,0,0,0,0,F,1,0
+498,Female,22,Less than 25,Other,0,0,0,0,F,1,0
+504,Female,22,Less than 25,Caucasian,0,0,0,0,F,1,0
+504,Female,22,Less than 25,Native American,0,0,0,0,F,1,0
+505,Female,21,Less than 25,Caucasian,0,0,0,0,F,1,0
+505,Female,21,Less than 25,Native American,0,0,0,0,F,1,0
+510,Female,29,25 - 45,Caucasian,0,0,0,5,F,1,0
+512,Female,21,Less than 25,Caucasian,0,0,0,0,F,1,0
+512,Female,21,Less than 25,Hispanic,0,0,0,0,F,1,0
+517,Female,21,Less than 25,Caucasian,0,0,0,0,F,1,0
+517,Female,21,Less than 25,Other,0,0,0,0,F,1,0
+523,Female,22,Less than 25,Caucasian,0,0,0,1,F,1,0
+523,Female,22,Less than 25,African-American,0,0,0,1,F,1,0
+526,Male,24,Less than 25,Caucasian,0,0,0,0,F,0,1
+527,Male,22,Less than 25,Caucasian,0,0,0,0,F,0,1
+531,Male,56,Greater than 45,Caucasian,0,0,0,10,F,0,1
+541,Female,45,Greater than 45,Caucasian,0,0,0,8,M,1,0
+541,Female,45,Greater than 45,Native American,0,0,0,8,M,1,0
+541,Male,45,Greater than 45,Native American,0,0,0,8,M,1,0
+547,Female,21,Less than 25,Caucasian,0,0,0,2,M,1,0
+547,Female,21,Less than 25,Native American,0,0,0,2,M,1,0
+551,Female,37,25 - 45,Hispanic,0,0,0,9,F,1,0
+553,Female,22,Less than 25,Caucasian,0,0,0,1,F,1,0
+553,Female,22,Less than 25,Native American,0,0,0,1,F,1,0
+554,Female,21,Less than 25,Caucasian,0,0,0,0,F,1,0
+554,Female,21,Less than 25,Asian,0,0,0,0,F,1,0
+555,Male,20,Less than 25,Asian,0,0,0,1,F,1,0
+563,Female,34,25 - 45,Caucasian,0,0,1,3,F,1,0
+563,Female,34,25 - 45,Hispanic,0,0,1,3,F,1,0
+563,Male,34,25 - 45,Caucasian,0,0,1,3,F,1,0
+564,Female,40,25 - 45,Caucasian,0,0,0,8,M,1,0
+564,Female,40,25 - 45,African-American,0,0,0,8,M,1,0
+566,Female,27,25 - 45,Caucasian,0,0,0,3,F,1,0
+566,Female,27,25 - 45,Other,0,0,0,3,F,1,0
+570,Female,43,25 - 45,Asian,0,0,0,12,F,1,0
+578,Female,23,Less than 25,Native American,0,0,1,1,F,1,0
+583,Female,20,Less than 25,Hispanic,0,0,1,0,F,1,0
+587,Female,28,25 - 45,Native American,0,0,0,5,F,1,0
+596,Male,24,Less than 25,Caucasian,0,0,0,0,F,0,1
+606,Female,21,Less than 25,Caucasian,0,0,0,0,F,1,0
+606,Female,21,Less than 25,Native American,0,0,0,0,F,1,0
+614,Female,20,Less than 25,Caucasian,0,0,0,0,F,1,0
+614,Female,20,Less than 25,African-American,0,0,0,0,F,1,0
+616,Male,22,Less than 25,Caucasian,0,0,0,1,F,0,1
+621,Male,24,Less than 25,African-American,0,0,0,0,F,0,1
+621,Male,24,Less than 25,Caucasian,0,0,0,0,F,0,1
+622,Female,35,25 - 45,Caucasian,0,0,0,6,F,1,0
+622,Female,35,25 - 45,Asian,0,0,0,6,F,1,0
+623,Female,24,Less than 25,Caucasian,0,0,0,1,F,1,0
+623,Female,24,Less than 25,African-American,0,0,0,1,F,1,0
+632,Female,21,Less than 25,Caucasian,0,0,0,1,F,1,0
+632,Female,21,Less than 25,Native American,0,0,0,1,F,1,0
+638,Female,26,25 - 45,Caucasian,0,0,0,2,F,1,0
+638,Female,26,25 - 45,Native American,0,0,0,2,F,1,0
+639,Female,20,Less than 25,Caucasian,0,0,0,0,F,1,0
+639,Female,20,Less than 25,Native American,0,0,0,0,F,1,0
+647,Female,22,Less than 25,Caucasian,0,0,0,0,F,1,0
+647,Female,22,Less than 25,African-American,0,0,0,0,F,1,0
+648,Female,23,Less than 25,Caucasian,0,0,0,1,F,1,0
+648,Female,23,Less than 25,Other,0,0,0,1,F,1,0
+651,Female,21,Less than 25,Caucasian,0,0,1,0,F,1,0
+651,Female,21,Less than 25,Other,0,0,1,0,F,1,0
+658,Male,21,Less than 25,Caucasian,0,0,0,0,F,0,1
+659,Female,24,Less than 25,Caucasian,0,0,0,2,M,1,0
+659,Female,24,Less than 25,Native American,0,0,0,2,M,1,0
+662,Female,38,25 - 45,Caucasian,0,0,0,7,M,1,0
+662,Female,38,25 - 45,African-American,0,0,0,7,M,1,0
+662,Male,38,25 - 45,Caucasian,0,0,0,7,M,1,0
+663,Male,25,25 - 45,Caucasian,0,0,0,3,F,0,1
+665,Female,54,Greater than 45,Caucasian,0,0,0,10,F,1,0
+665,Female,54,Greater than 45,Asian,0,0,0,10,F,1,0
+669,Female,60,Greater than 45,Native American,0,0,0,13,F,1,0
+678,Male,23,Less than 25,Native American,0,0,0,0,F,0,1
+678,Male,23,Less than 25,Caucasian,0,0,0,0,F,0,1
+682,Female,22,Less than 25,Caucasian,0,0,0,0,F,1,0
+682,Female,22,Less than 25,Hispanic,0,0,0,0,F,1,0
+685,Female,23,Less than 25,Caucasian,0,0,0,2,M,1,0
+685,Female,23,Less than 25,Other,0,0,0,2,M,1,0
+688,Female,24,Less than 25,Caucasian,0,0,0,0,F,1,0
+688,Female,24,Less than 25,Asian,0,0,0,0,F,1,0
+688,Male,24,Less than 25,Hispanic,0,0,0,0,F,1,0
+690,Male,20,Less than 25,Caucasian,0,0,0,0,F,0,1
+690,Male,20,Less than 25,African-American,0,0,0,0,F,0,1
+691,Male,30,25 - 45,Caucasian,0,0,0,3,F,0,1
+696,Male,23,Less than 25,Caucasian,0,0,0,0,F,0,1
+703,Female,22,Less than 25,Caucasian,0,0,0,0,F,1,0
+703,Female,22,Less than 25,Hispanic,0,0,0,0,F,1,0
+707,Female,24,Less than 25,Caucasian,0,0,0,2,M,1,0
+707,Female,24,Less than 25,African-American,0,0,0,2,M,1,0
+709,Female,22,Less than 25,Caucasian,0,0,0,1,F,1,0
+709,Female,22,Less than 25,Hispanic,0,0,0,1,F,1,0
+710,Female,34,25 - 45,Other,0,0,0,7,F,1,0
+712,Male,21,Less than 25,African-American,0,0,0,0,F,0,1
+712,Male,21,Less than 25,Caucasian,0,0,0,0,F,0,1
+718,Female,21,Less than 25,Caucasian,0,1,0,1,F,1,0
+718,Female,21,Less than 25,Asian,0,1,0,1,F,1,0
+721,Female,25,25 - 45,Hispanic,4,0,0,5,M,1,0
+722,Female,29,25 - 45,Caucasian,0,0,0,3,F,1,0
+722,Female,29,25 - 45,Asian,0,0,0,3,F,1,0
+726,Female,23,Less than 25,Asian,0,1,1,1,F,1,0
+727,Female,21,Less than 25,Caucasian,0,0,0,1,M,1,0
+727,Female,21,Less than 25,Native American,0,0,0,1,M,1,0
+727,Male,21,Less than 25,Other,0,0,0,1,M,1,0
+731,Female,20,Less than 25,Caucasian,0,0,0,0,F,1,0
+731,Female,20,Less than 25,Native American,0,0,0,0,F,1,0
+733,Female,29,25 - 45,Caucasian,0,0,0,5,F,1,0
+733,Female,29,25 - 45,Native American,0,0,0,5,F,1,0
+737,Female,23,Less than 25,Caucasian,0,0,0,1,F,1,0
+737,Female,23,Less than 25,African-American,0,0,0,1,F,1,0
+745,Female,26,25 - 45,Caucasian,0,0,0,5,M,1,0
+745,Female,26,25 - 45,African-American,0,0,0,5,M,1,0
+750,Female,22,Less than 25,Caucasian,0,0,0,0,F,1,0
+750,Female,22,Less than 25,Asian,0,0,0,0,F,1,0
+751,Female,44,25 - 45,Caucasian,0,0,0,10,M,1,0
+751,Female,44,25 - 45,African-American,0,0,0,10,M,1,0
+752,Female,28,25 - 45,Asian,0,0,0,9,M,1,0
+754,Female,49,Greater than 45,Caucasian,0,0,0,11,M,1,0
+755,Female,22,Less than 25,Asian,0,0,2,0,F,1,0
+758,Female,23,Less than 25,Caucasian,0,0,0,0,F,1,0
+758,Female,23,Less than 25,Asian,0,0,0,0,F,1,0
+764,Female,22,Less than 25,Caucasian,0,0,0,0,F,1,0
+764,Female,22,Less than 25,African-American,0,0,0,0,F,1,0
+767,Female,51,Greater than 45,Caucasian,0,0,0,8,F,1,0
+767,Female,51,Greater than 45,African-American,0,0,0,8,F,1,0
+767,Male,51,Greater than 45,Hispanic,0,0,0,8,F,1,0
+774,Female,24,Less than 25,Caucasian,0,0,0,0,F,1,0
+774,Female,24,Less than 25,African-American,0,0,0,0,F,1,0
+777,Female,22,Less than 25,Caucasian,0,0,1,1,M,1,0
+777,Female,22,Less than 25,Native American,0,0,1,1,M,1,0
+778,Female,22,Less than 25,Caucasian,0,0,1,0,M,1,0
+778,Female,22,Less than 25,Hispanic,0,0,1,0,M,1,0
+778,Male,22,Less than 25,Caucasian,0,0,1,0,M,1,0
+787,Female,22,Less than 25,Caucasian,0,0,0,1,F,1,0
+787,Female,22,Less than 25,Asian,0,0,0,1,F,1,0
+790,Female,28,25 - 45,Caucasian,0,0,0,4,F,1,0
+790,Female,28,25 - 45,African-American,0,0,0,4,F,1,0
+791,Female,20,Less than 25,Caucasian,0,0,0,1,M,1,0
+791,Female,20,Less than 25,African-American,0,0,0,1,M,1,0
+792,Female,33,25 - 45,Caucasian,0,0,0,4,F,1,0
+792,Female,33,25 - 45,African-American,0,0,0,4,F,1,0
+793,Female,24,Less than 25,Caucasian,0,0,0,1,F,1,0
+793,Female,24,Less than 25,Asian,0,0,0,1,F,1,0
+794,Female,38,25 - 45,Asian,1,0,1,7,F,1,0
+795,Female,24,Less than 25,Caucasian,0,0,0,0,F,1,0
+795,Female,24,Less than 25,Native American,0,0,0,0,F,1,0
+798,Female,53,Greater than 45,Caucasian,0,0,0,8,F,1,0
+798,Female,53,Greater than 45,African-American,0,0,0,8,F,1,0
+808,Female,22,Less than 25,Caucasian,0,0,0,0,F,1,0
+808,Female,22,Less than 25,Native American,0,0,0,0,F,1,0
+809,Female,30,25 - 45,Native American,0,0,0,6,F,1,0
+810,Female,21,Less than 25,Caucasian,0,0,0,1,F,1,0
+810,Female,21,Less than 25,Native American,0,0,0,1,F,1,0
+813,Female,23,Less than 25,Caucasian,0,0,0,1,M,1,0
+813,Female,23,Less than 25,Hispanic,0,0,0,1,M,1,0
+813,Male,23,Less than 25,Caucasian,0,0,0,1,M,1,0
+822,Female,24,Less than 25,Caucasian,0,0,0,0,F,1,0
+822,Female,24,Less than 25,Other,0,0,0,0,F,1,0
+822,Male,24,Less than 25,Native American,0,0,0,0,F,1,0
+823,Female,36,25 - 45,Caucasian,0,0,0,7,F,1,0
+825,Female,27,25 - 45,Asian,0,1,1,7,M,1,0
+828,Female,22,Less than 25,Caucasian,0,0,0,1,M,1,0
+828,Female,22,Less than 25,Native American,0,0,0,1,M,1,0
+828,Male,22,Less than 25,Caucasian,0,0,0,1,M,1,0
+832,Female,49,Greater than 45,Asian,0,0,0,10,F,1,0
+834,Female,22,Less than 25,Caucasian,0,0,0,3,M,1,0
+834,Female,22,Less than 25,Other,0,0,0,3,M,1,0
+834,Male,22,Less than 25,Asian,0,0,0,3,M,1,0
+837,Female,52,Greater than 45,Caucasian,0,0,0,8,F,1,0
+837,Female,52,Greater than 45,African-American,0,0,0,8,F,1,0
+837,Male,52,Greater than 45,Other,0,0,0,8,F,1,0
+842,Female,22,Less than 25,Caucasian,0,0,0,0,F,1,0
+842,Female,22,Less than 25,Other,0,0,0,0,F,1,0
+846,Female,46,Greater than 45,Hispanic,0,0,0,10,F,1,0
+849,Female,24,Less than 25,Caucasian,0,0,0,1,F,1,0
+849,Female,24,Less than 25,Other,0,0,0,1,F,1,0
+860,Female,22,Less than 25,Hispanic,0,0,1,1,F,1,0
+862,Female,21,Less than 25,Caucasian,0,0,0,1,F,1,0
+862,Female,21,Less than 25,Other,0,0,0,1,F,1,0
+865,Female,23,Less than 25,Caucasian,0,0,0,0,F,1,0
+865,Female,23,Less than 25,Hispanic,0,0,0,0,F,1,0
+868,Female,38,25 - 45,Caucasian,0,0,0,8,M,1,0
+868,Female,38,25 - 45,Other,0,0,0,8,M,1,0
+869,Female,24,Less than 25,Caucasian,0,0,0,0,F,1,0
+869,Female,24,Less than 25,Asian,0,0,0,0,F,1,0
+872,Female,33,25 - 45,Caucasian,0,1,0,6,M,1,0
+872,Female,33,25 - 45,African-American,0,1,0,6,M,1,0
+875,Female,23,Less than 25,Caucasian,0,0,0,0,F,1,0
+875,Female,23,Less than 25,Hispanic,0,0,0,0,F,1,0
+882,Female,22,Less than 25,Caucasian,0,0,0,0,F,1,0
+882,Female,22,Less than 25,Asian,0,0,0,0,F,1,0
+885,Female,21,Less than 25,Caucasian,0,0,0,1,F,1,0
+886,Female,21,Less than 25,Caucasian,0,0,0,0,F,1,0
+886,Female,21,Less than 25,Native American,0,0,0,0,F,1,0
+888,Female,21,Less than 25,Caucasian,0,1,0,1,F,1,0
+890,Female,28,25 - 45,Asian,0,0,0,7,F,1,0
+894,Female,55,Greater than 45,Caucasian,0,0,0,8,F,1,0
+894,Female,55,Greater than 45,Asian,0,0,0,8,F,1,0
+894,Male,55,Greater than 45,Caucasian,0,0,0,8,F,1,0
+897,Female,28,25 - 45,Caucasian,0,0,0,2,F,1,0
+897,Female,28,25 - 45,African-American,0,0,0,2,F,1,0
+897,Male,28,25 - 45,Caucasian,0,0,0,2,F,1,0
+899,Female,25,25 - 45,Caucasian,0,0,0,4,F,1,0
+909,Female,21,Less than 25,Hispanic,0,0,0,3,F,1,0
+915,Female,54,Greater than 45,Caucasian,0,0,0,12,M,1,0
+915,Female,54,Greater than 45,Asian,0,0,0,12,M,1,0
+919,Female,33,25 - 45,Caucasian,0,0,0,4,F,1,0
+919,Female,33,25 - 45,Native American,0,0,0,4,F,1,0
+923,Female,32,25 - 45,Caucasian,0,0,0,6,M,1,0
+923,Female,32,25 - 45,Asian,0,0,0,6,M,1,0
+926,Female,23,Less than 25,Caucasian,0,0,0,0,F,1,0
+926,Female,23,Less than 25,Other,0,0,0,0,F,1,0
+935,Female,22,Less than 25,Caucasian,0,0,0,0,F,1,0
+935,Female,22,Less than 25,Asian,0,0,0,0,F,1,0
+938,Female,26,25 - 45,Caucasian,0,0,0,4,F,1,0
+938,Female,26,25 - 45,Other,0,0,0,4,F,1,0
+943,Female,24,Less than 25,Caucasian,0,0,0,0,F,1,0
+943,Female,24,Less than 25,Other,0,0,0,0,F,1,0
+946,Female,20,Less than 25,Caucasian,0,0,0,0,F,1,0
+946,Female,20,Less than 25,Hispanic,0,0,0,0,F,1,0
+950,Female,36,25 - 45,Caucasian,0,0,0,8,M,1,0
+950,Female,36,25 - 45,Other,0,0,0,8,M,1,0
+951,Female,23,Less than 25,Hispanic,0,0,0,3,F,1,0
+953,Female,21,Less than 25,Caucasian,0,1,0,1,M,1,0
+953,Female,21,Less than 25,Hispanic,0,1,0,1,M,1,0
+958,Male,32,25 - 45,Caucasian,0,0,1,4,F,0,1
+958,Male,32,25 - 45,Native American,0,0,1,4,F,0,1
+959,Female,22,Less than 25,Caucasian,0,0,0,1,F,1,0
+959,Female,22,Less than 25,Other,0,0,0,1,F,1,0
+962,Female,21,Less than 25,Caucasian,0,0,0,1,F,1,0
+962,Female,21,Less than 25,Other,0,0,0,1,F,1,0
+963,Female,24,Less than 25,Caucasian,0,0,0,1,F,1,0
+963,Female,24,Less than 25,African-American,0,0,0,1,F,1,0
+963,Male,24,Less than 25,Asian,0,0,0,1,F,1,0
+968,Female,32,25 - 45,Caucasian,0,0,0,5,F,1,0
+968,Female,32,25 - 45,African-American,0,0,0,5,F,1,0
+975,Female,22,Less than 25,Caucasian,0,1,0,3,M,1,0
+982,Female,21,Less than 25,Caucasian,0,0,0,0,F,1,0
+982,Female,21,Less than 25,Hispanic,0,0,0,0,F,1,0
+991,Male,45,Greater than 45,Caucasian,0,0,0,6,F,0,1
+1000,Female,21,Less than 25,Caucasian,0,0,0,1,F,1,0
+1000,Female,21,Less than 25,Other,0,0,0,1,F,1,0
+1002,Male,22,Less than 25,Caucasian,0,0,0,0,F,0,1
+1003,Female,26,25 - 45,Asian,0,0,0,5,F,1,0
+1010,Female,21,Less than 25,Caucasian,0,0,0,1,F,1,0
+1010,Female,21,Less than 25,Hispanic,0,0,0,1,F,1,0
+1014,Female,21,Less than 25,Caucasian,0,0,0,0,F,1,0
+1014,Female,21,Less than 25,Native American,0,0,0,0,F,1,0
+1016,Female,23,Less than 25,Asian,0,0,0,6,M,1,0
+1021,Female,22,Less than 25,Caucasian,0,0,0,0,F,1,0
+1021,Female,22,Less than 25,Asian,0,0,0,0,F,1,0
+1023,Male,24,Less than 25,Caucasian,0,0,0,0,F,0,1
+1026,Male,35,25 - 45,Native American,0,0,1,5,F,0,1
+1026,Male,35,25 - 45,Caucasian,0,0,1,5,F,0,1
+1027,Female,24,Less than 25,Caucasian,0,0,0,2,M,1,0
+1027,Female,24,Less than 25,Hispanic,0,0,0,2,M,1,0
+1031,Female,20,Less than 25,Hispanic,0,1,1,1,F,1,0
+1042,Female,28,25 - 45,Caucasian,0,0,0,4,M,1,0
+1042,Female,28,25 - 45,Hispanic,0,0,0,4,M,1,0
+1042,Male,28,25 - 45,Caucasian,0,0,0,4,M,1,0
+1045,Female,24,Less than 25,Caucasian,0,0,0,1,F,1,0
+1045,Female,24,Less than 25,Other,0,0,0,1,F,1,0
+1046,Female,22,Less than 25,Caucasian,0,0,0,1,F,1,0
+1046,Female,22,Less than 25,Other,0,0,0,1,F,1,0
+1056,Female,52,Greater than 45,Caucasian,0,0,0,10,F,1,0
+1056,Female,52,Greater than 45,Native American,0,0,0,10,F,1,0
+1060,Female,23,Less than 25,Other,0,2,1,3,M,1,0
+1064,Female,57,Greater than 45,Caucasian,0,0,0,11,F,1,0
+1064,Female,57,Greater than 45,Other,0,0,0,11,F,1,0
+1065,Male,24,Less than 25,Caucasian,0,0,0,0,F,0,1
+1071,Male,24,Less than 25,Caucasian,0,0,0,0,F,0,1
+1086,Female,28,25 - 45,Caucasian,0,0,0,3,F,1,0
+1086,Female,28,25 - 45,Native American,0,0,0,3,F,1,0
+1086,Male,28,25 - 45,Asian,0,0,0,3,F,1,0
+1087,Female,24,Less than 25,Caucasian,0,0,0,2,F,1,0
+1097,Female,23,Less than 25,Caucasian,0,0,0,1,F,1,0
+1097,Female,23,Less than 25,Hispanic,0,0,0,1,F,1,0
+1100,Female,21,Less than 25,Caucasian,0,0,0,0,F,1,0
+1100,Female,21,Less than 25,African-American,0,0,0,0,F,1,0
+1108,Female,22,Less than 25,Caucasian,0,0,0,0,F,1,0
+1108,Female,22,Less than 25,Native American,0,0,0,0,F,1,0
+1110,Female,21,Less than 25,Caucasian,0,0,0,0,F,1,0
+1110,Female,21,Less than 25,African-American,0,0,0,0,F,1,0
+1113,Female,30,25 - 45,Caucasian,0,0,0,5,F,1,0
+1113,Female,30,25 - 45,Hispanic,0,0,0,5,F,1,0
+1117,Female,30,25 - 45,Caucasian,0,1,1,3,F,1,0
+1117,Female,30,25 - 45,Asian,0,1,1,3,F,1,0
+1117,Male,30,25 - 45,Hispanic,0,1,1,3,F,1,0
+1122,Female,21,Less than 25,Caucasian,0,0,1,0,M,1,0
+1122,Female,21,Less than 25,Asian,0,0,1,0,M,1,0
+1123,Female,25,25 - 45,Asian,0,0,0,5,F,1,0
+1125,Female,43,25 - 45,Caucasian,0,0,0,8,F,1,0
+1125,Female,43,25 - 45,Asian,0,0,0,8,F,1,0
+1130,Female,20,Less than 25,Other,1,0,0,1,F,1,0
+1134,Female,43,25 - 45,Caucasian,0,0,0,7,F,1,0
+1134,Female,43,25 - 45,Native American,0,0,0,7,F,1,0
+1137,Male,21,Less than 25,Caucasian,0,0,0,0,F,0,1
+1141,Female,26,25 - 45,Caucasian,0,0,0,2,F,1,0
+1141,Female,26,25 - 45,Native American,0,0,0,2,F,1,0
+1141,Male,26,25 - 45,Native American,0,0,0,2,F,1,0
+1147,Male,23,Less than 25,Native American,0,0,0,1,F,0,1
+1147,Male,23,Less than 25,Caucasian,0,0,0,1,F,0,1
+1149,Female,31,25 - 45,Caucasian,0,0,0,5,F,1,0
+1149,Female,31,25 - 45,African-American,0,0,0,5,F,1,0
+1160,Female,24,Less than 25,Caucasian,0,0,0,2,M,1,0
+1160,Female,24,Less than 25,African-American,0,0,0,2,M,1,0
+1164,Female,23,Less than 25,Caucasian,0,0,0,3,M,1,0
+1164,Female,23,Less than 25,Other,0,0,0,3,M,1,0
+1166,Female,22,Less than 25,Caucasian,0,0,0,0,F,1,0
+1166,Female,22,Less than 25,Hispanic,0,0,0,0,F,1,0
+1168,Female,23,Less than 25,Caucasian,0,1,2,1,M,1,0
+1168,Female,23,Less than 25,Other,0,1,2,1,M,1,0
+1170,Male,21,Less than 25,Caucasian,0,0,0,0,F,0,1
+1179,Female,24,Less than 25,Caucasian,0,0,0,2,F,1,0
+1181,Female,30,25 - 45,Caucasian,0,0,0,7,M,1,0
+1181,Female,30,25 - 45,Asian,0,0,0,7,M,1,0
+1186,Female,21,Less than 25,Caucasian,0,0,1,0,M,1,0
+1186,Female,21,Less than 25,African-American,0,0,1,0,M,1,0
+1186,Male,21,Less than 25,Other,0,0,1,0,M,1,0
+1193,Female,28,25 - 45,Caucasian,0,0,0,2,F,1,0
+1193,Female,28,25 - 45,African-American,0,0,0,2,F,1,0
+1193,Male,28,25 - 45,Caucasian,0,0,0,2,F,1,0
+1197,Female,21,Less than 25,Caucasian,0,0,0,0,F,1,0
+1197,Female,21,Less than 25,Other,0,0,0,0,F,1,0
+1199,Female,24,Less than 25,Caucasian,0,0,0,2,M,1,0
+1199,Female,24,Less than 25,Other,0,0,0,2,M,1,0
+1201,Female,21,Less than 25,Caucasian,0,0,0,1,F,1,0
+1203,Male,23,Less than 25,Caucasian,0,0,0,2,M,0,1
+1206,Male,22,Less than 25,Caucasian,0,0,1,1,M,0,1
+1212,Female,30,25 - 45,Caucasian,0,0,1,6,M,1,0
+1212,Female,30,25 - 45,African-American,0,0,1,6,M,1,0
+1215,Female,44,25 - 45,Caucasian,0,0,0,11,M,1,0
+1215,Female,44,25 - 45,Other,0,0,0,11,M,1,0
+1219,Female,22,Less than 25,Asian,0,3,0,3,F,1,0
+1222,Female,26,25 - 45,Asian,0,0,0,5,F,1,0
+1230,Female,26,25 - 45,Asian,0,0,0,5,F,1,0
+1232,Male,24,Less than 25,Caucasian,0,0,0,0,F,0,1

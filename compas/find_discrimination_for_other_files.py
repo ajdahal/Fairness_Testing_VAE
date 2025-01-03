@@ -18,12 +18,12 @@ csv_files = ['compas_train_3_way_covering_array_bin_means_2024-12-31_11-59.csv',
 
 csv_paths = [os.path.join(t_way_dir, f) for f in csv_files]
 
-for t_way_file in csv_paths:
-    process_models(t_way_file, models_dir, output_dir, results_dir)
-    
-    
-dataset_files  = ["compas_train.csv", "compas_test.csv"]
-dataset_csv_files = [os.path.join(dataset_dir, f) for f in csv_files]
+#for t_way_file in csv_paths:
+#    process_models(t_way_file, models_dir, output_dir, results_dir)
 
-for dataset_file in dataset_files:
+
+dataset_files  = ["compas_train.csv", "compas_test.csv"]
+dataset_csv_files = [os.path.join(dataset_dir, f) for f in dataset_files]
+
+for dataset_file in dataset_csv_files:
     process_models(dataset_file, models_dir, output_dir, results_dir)

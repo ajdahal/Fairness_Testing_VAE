@@ -1,0 +1,9 @@
+Filename,Model_Name,Total_Instances,Discriminatory_Instances,Percentage_Discriminatory,First_Discrepancy
+credit_test.csv,credit__logistic_regression__.pkl,200,20,10.0,15
+credit_test.csv,credit__nn__.h5,200,27,13.5,1
+credit_test.csv,credit__random_forest__.pkl,200,19,9.5,59
+credit_test.csv,credit__svm__.pkl,200,4,2.0,40
+credit_test.csv,credit__logistic_regression__.pkl,200,20,10.0,15
+credit_test.csv,credit__nn__.h5,200,27,13.5,1
+credit_test.csv,credit__random_forest__.pkl,200,19,9.5,59
+credit_test.csv,credit__svm__.pkl,200,4,2.0,40

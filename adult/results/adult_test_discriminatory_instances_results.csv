@@ -1,0 +1,5 @@
+Filename,Model_Name,Total_Instances,Discriminatory_Instances,Percentage_Discriminatory,First_Discrepancy
+adult_test.csv,adult__logistic_regression__.pkl,6033,800,13.26,3
+adult_test.csv,adult__nn__.h5,6033,732,12.133,3
+adult_test.csv,adult__random_forest__.pkl,6033,738,12.233,3
+adult_test.csv,adult__svm__.pkl,6033,262,4.343,10

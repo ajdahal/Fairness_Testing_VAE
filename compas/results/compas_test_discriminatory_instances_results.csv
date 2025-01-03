@@ -1,0 +1,5 @@
+Filename,Model_Name,Total_Instances,Discriminatory_Instances,Percentage_Discriminatory,First_Discrepancy
+compas_test.csv,compas__logistic_regression__.pkl,1235,313,25.344,5
+compas_test.csv,compas__nn__.h5,1235,373,30.202,6
+compas_test.csv,compas__random_forest__.pkl,1235,676,54.737,2
+compas_test.csv,compas__svm__.pkl,1235,382,30.931,1
