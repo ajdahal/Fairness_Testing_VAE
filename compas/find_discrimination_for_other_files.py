@@ -14,7 +14,7 @@ dataset_dir = os.path.join(base_dir, "dataset")
 
 
 t_way_dir = "t_way_samples"
-csv_files = ['compas_train_3_way_covering_array_bin_means_*.csv', 'compas_train_4_way_covering_array_bin_means_*.csv', 'compas_train_5_way_covering_array_bin_means_*.csv']
+csv_files = ['compas_train_3_way_covering_array_bin_means_2024-12-31_11-59.csv', 'compas_train_4_way_covering_array_bin_means_2024-12-31_11-59.csv', 'compas_train_5_way_covering_array_bin_means_2024-12-31_11-59.csv']
 
 csv_paths = [os.path.join(t_way_dir, f) for f in csv_files]
 

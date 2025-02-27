@@ -13,7 +13,7 @@ results_dir = os.path.join(base_dir, "results")
 dataset_dir = os.path.join(base_dir, "dataset")
 
 t_way_dir = "t_way_samples"
-csv_files = ['adult_train_3_way_covering_array_bin_means_*.csv', 'adult_train_4_way_covering_array_bin_means_*.csv']
+csv_files = ['adult_train_3_way_covering_array_bin_means_2025-01-08_14-15.csv', 'adult_train_4_way_covering_array_bin_means_2025-01-08_14-15.csv']
 
 csv_paths = [os.path.join(t_way_dir, f) for f in csv_files]
 
