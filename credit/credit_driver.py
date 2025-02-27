@@ -82,7 +82,7 @@ def main():
         print("Dataset files already exist. Loading the files...")
         train_data = pd.read_csv(train_file_path)
         test_data = pd.read_csv(test_file_path)
-    """
+    
     # Now you can use train_data and test_data
     print(f"Train data shape: {train_data.shape}")
     print(f"Test data shape: {test_data.shape}")
@@ -143,7 +143,7 @@ def main():
     matching_files = glob.glob(multivariate_file_pattern)
     multivariate_filename = matching_files[0] if matching_files else None
     t_way_multivariate_combinations(synthesizer, ht, embedding_dimension, multivariate_filename, train_file_path, filename_labels, label_column_name)
-    """
+    
     # Step 6: find ATN for t_way_samples with respect to training data
     calculate_and_save_atn_scores(train_file_path, t_way_samples_dir, results_dir, mode='not-equal')  # mode: 'equal' or 'not-equal'    
     
@@ -153,7 +153,7 @@ def main():
     
     t_way_patel = fix_header_csv_file("../Patel_Data/tWay_Concrete_TC/GermanCredit_AI360_Modified_2way_concrete_TC_with_constraint.csv")
     t_way_ours = glob.glob("t_way_samples/credit_train_2_way_covering_array_bin_means*.csv")
-
+    
     dataset_patel = fix_header_csv_file("../Patel_Data/Dataset/GermanCredit_AI360_Modified.csv")
     dataset_ours = os.path.join(dataset_dir, "credit_all_data.csv")
     
