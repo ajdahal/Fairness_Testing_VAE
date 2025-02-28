@@ -3,12 +3,12 @@ This repo contains the necessary code for generation of samples for Fairness Tes
     1.requirements.txt: contains the necessary libraries required to run the code.<br>
     2. utils: contains the utility scripts for downloading necessary data to compare the results and add some functions to tvae.<br>
     3. dataset_name:<br>
-       a. dataset_name_driver.py: contains code to obtain results of fairness violations for t = 2.<br>
-       b. find_discrimination_for_other_files.py: contains code to obtain results of fairness violations for higher order t-way combinations.<br>
-       c. code: contains necessary scripts for running the project.<br>
-       d. dataset: contains dataset files.<br>
-       e. models: contains the VAE model and machine learning models (random_forest, logistic_regression, svm, nn).<br>
-       f. results: contains the results ( ATN, ratio of discriminatory_instances, First Discriminatory Instance ).<br>
+        - dataset_name_driver.py: contains code to obtain results of fairness violations for t = 2.<br>
+        - find_discrimination_for_other_files.py: contains code to obtain results of fairness violations for higher order t-way combinations.<br>
+        - code: contains necessary scripts for running the project.<br>
+        - dataset: contains dataset files.<br>
+        - models: contains the VAE model and machine learning models (random_forest, logistic_regression, svm, nn).<br>
+        - results: contains the results ( ATN, ratio of discriminatory_instances, First Discriminatory Instance ).<br>
 
 
 Steps to run the code:
